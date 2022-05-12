@@ -1,0 +1,121 @@
+<html>
+<head>
+<style>
+	    .edge
+{
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding:12px;
+  height:10px
+}
+		.topdiv
+		{
+		float: center;
+		padding :1%;
+		height:8%;
+		}
+         .leftdiv
+         {
+         float: left;
+         }
+         .rightdiv
+		{
+         float: right;
+         }
+         div{
+         padding : 4%;
+         width: 41.5%;
+         }
+</style>
+</head>
+<body>
+<div class="topdiv">
+<center>
+<img src="https://d29fhpw069ctt2.cloudfront.net/icon/image/49067/preview.svg"
+alt="image not found" height=70 width=80 align="center"><br>
+<input type="file" id="img" name="img" accept="image/*"><br>
+First Name&emsp;&emsp;&emsp;*&emsp;&emsp;&emsp;&emsp;&emsp;Last Name*<br>
+<input type="text" class="edge" required>&emsp;<input type="text" class="edge" required>
+</img>
+</center>
+</div>
+ <div class="leftdiv">
+<fieldset>
+<legend><h3>Personal Information</h3></legend>
+<form name="myform" method="post">
+Email<br>
+<input type="text" class="edge" name="fname" required><br>
+Mobile<br>
+<input type="text" class="edge" name="fname" required><br>
+Gender&emsp;&emsp;&emsp;Date of Birth<br>
+<select>
+<option>Male</option>
+<option>Female</option>
+</select>&emsp;
+<input type="date" ><br>
+Languages Known<br>
+<select>
+<option>English</option>
+<option>Hindi</option>
+</select><br>
+Office No./House No./Flat No.<br>
+<input type="text" class="edge" name="fname" required><br>
+Street name/Society Name<br>
+<input type="text" class="edge" name="fname" required><br>
+Landmark name*<br>
+<input type="text" class="edge" name="fname" required><br>
+Pincode&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Country<br>
+<input type="text" class="edge" size="10" name="fname" required>&emsp;&emsp;&emsp;&emsp;&emsp;
+<select>
+<option>India</option>
+<option>USA</option>
+</select><br>
+City&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;State/Province<br>
+<select>
+<option>Hyderabad</option>
+<option>Banglore</option>
+<option>Mumbai</option>
+</select>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<select>
+<option>Telangana</option>
+<option>TamilNadu</option>
+<option>UttarPradesh</option>
+</select><br>
+<input type=submit value="submit"><br>
+</form>
+</fieldset>
+</div>
+<div class="rightdiv">
+<fieldset>
+<legend>
+<h3>Professional Information</h3></legend>
+<form method="post" name="fname" mandatory required>
+Profession &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Experience<br>
+<select name="fname" required>
+<option>Software Developer</option>
+<option>Software Engineer</option>
+<option>Teacher</option>
+<option>Artist</option>
+<option>Photographer</option>
+</select>&emsp;&emsp;
+<input type="text" class="edge" name="fname" required><br>
+Studio Name<br>
+<input type="number" class="edge" name="fname" required><br>
+Aadhar card<br>
+<input type="file" class="edge" id="img" name="img" accept="image/*" required><br>
+Lisence<br>
+<input type="file" class="edge" id="img" name="img" accept="image/*" required><br>
+Visitng card<br>
+<input type="file" class="edge" id="img" name="img" accept="image/*" required><br>
+Union card<br>
+<input type="file" class="edge" id="img" name="img" accept="image/*" required><br>
+Equipments you use:<br>
+<textarea rows=3 cols=30 class="edge" required></textarea><br>
+<input type=submit value="submit"><br>
+</form>
+</fieldset>
+<input type=checkbox required>I Acknowledge that the provided details are correct<br>
+</div>
+<input type=submit value="submit"><br>
+</body>
+</html>
