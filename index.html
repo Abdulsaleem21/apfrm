@@ -5,8 +5,8 @@
 {
   border-radius: 25px;
   border: 2px solid #73AD21;
-  padding:12px;
-  height:10px
+  padding:15px;
+  height:20px;
 }
 		.topdiv
 		{
@@ -21,6 +21,7 @@
          .rightdiv
 		{
          float: right;
+	   width:42%;
          }
          div{
          padding : 4%;
@@ -33,7 +34,8 @@
 <center>
 <img src="https://d29fhpw069ctt2.cloudfront.net/icon/image/49067/preview.svg"
 alt="image not found" height=70 width=80 align="center"><br>
-<input type="file" id="img" name="img" accept="image/*"><br>
+<button style="display:block;width:100px; height:20px;" onclick="document.getElementById('img').click()">add</button>
+<input type='file' id="img" style="display:none" accept="image/*"> 
 First Name&emsp;&emsp;&emsp;*&emsp;&emsp;&emsp;&emsp;&emsp;Last Name*<br>
 <input type="text" class="edge" required>&emsp;<input type="text" class="edge" required>
 </img>
@@ -81,15 +83,12 @@ City&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;Stat
 <option>TamilNadu</option>
 <option>UttarPradesh</option>
 </select><br>
-<input type=submit value="submit"><br>
-</form>
 </fieldset>
 </div>
 <div class="rightdiv">
 <fieldset>
 <legend>
 <h3>Professional Information</h3></legend>
-<form method="post" name="fname" mandatory required>
 Profession &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Experience<br>
 <select name="fname" required>
 <option>Software Developer</option>
@@ -98,24 +97,27 @@ Profession &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Experience<br>
 <option>Artist</option>
 <option>Photographer</option>
 </select>&emsp;&emsp;
-<input type="text" class="edge" name="fname" required><br>
+<input type="number" class="edge" name="fname" required><br>
 Studio Name<br>
 <input type="number" class="edge" name="fname" required><br>
 Aadhar card<br>
-<input type="file" class="edge" id="img" name="img" accept="image/*" required><br>
+<button style="display:block;width:100px; height:20px;" onclick="document.getElementById('img').click()">add</button>
+<input type='file' id="img" class="edge" style="display:none" accept="image/*"><br>
 Lisence<br>
-<input type="file" class="edge" id="img" name="img" accept="image/*" required><br>
+<button style="display:block;width:100px; height:20px;" onclick="document.getElementById('img').click()">add</button>
+<input type='file' id="img" style="display:none" accept="image/*"><br>
 Visitng card<br>
-<input type="file" class="edge" id="img" name="img" accept="image/*" required><br>
+<button style="display:block;width:100px; height:20px;" onclick="document.getElementById('img').click()">add</button>
+<input type='file' id="img" style="display:none" accept="image/*"><br>
 Union card<br>
-<input type="file" class="edge" id="img" name="img" accept="image/*" required><br>
+<button style="display:block;width:100px; height:20px;" onclick="document.getElementById('img').click()">add</button>
+<input type='file' id="img" style="display:none" accept="image/*"><br>
 Equipments you use:<br>
 <textarea rows=3 cols=30 class="edge" required></textarea><br>
-<input type=submit value="submit"><br>
-</form>
 </fieldset>
 <input type=checkbox required>I Acknowledge that the provided details are correct<br>
 </div>
 <input type=submit value="submit"><br>
+</form>
 </body>
 </html>
